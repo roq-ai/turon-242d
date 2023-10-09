@@ -1,0 +1,2522 @@
+[
+  {
+    "location": [
+      {
+        "id": "d82c9808-e070-40d7-9233-ae0ba54577dd",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "123 Main Street",
+        "created_at": "2023-10-09T11:49:59.617Z",
+        "updated_at": "2023-10-08T13:51:28.561Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6b23b0e4-ee17-446c-a40b-14478b72ff7d",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "456 Elm Avenue",
+        "created_at": "2023-10-08T23:18:22.595Z",
+        "updated_at": "2023-10-09T02:07:43.573Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e1d078d2-999d-4751-aba3-d9e448ef3197",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "789 Oak Lane",
+        "created_at": "2023-10-09T01:37:04.801Z",
+        "updated_at": "2023-10-09T06:06:41.235Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c994ce3d-34ac-4fa8-8fe9-e289c3a9e317",
+        "city": "Tokyo",
+        "state": "New South Wales",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "321 Pine Road",
+        "created_at": "2023-10-09T10:38:35.365Z",
+        "updated_at": "2023-10-09T07:24:25.372Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1580fb0a-06c9-4448-a1ca-ffce78ff1ecb",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Canada",
+        "zip_code": "V6C 3E8",
+        "street": "987 Maple Drive",
+        "created_at": "2023-10-09T00:03:29.894Z",
+        "updated_at": "2023-10-08T23:31:04.365Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "7ffa0ba1-eecd-4b6e-bc44-c237ec087868",
+        "created_at": "2023-10-09T03:50:38.085Z",
+        "updated_at": "2023-10-08T20:37:30.755Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8172bbb0-7643-4aaf-ae50-9e23c5f303c9",
+        "created_at": "2023-10-08T14:35:32.498Z",
+        "updated_at": "2023-10-09T13:09:19.202Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "062a6fbe-a9ec-4f26-af7c-f950316180f2",
+        "created_at": "2023-10-08T14:06:53.081Z",
+        "updated_at": "2023-10-08T18:44:36.052Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "920230f7-6182-407d-8ddb-1c7e26d27556",
+        "created_at": "2023-10-09T02:16:08.277Z",
+        "updated_at": "2023-10-09T11:19:20.789Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cdffe24-ccba-4afd-9dcd-f858d61e181d",
+        "created_at": "2023-10-08T16:32:29.652Z",
+        "updated_at": "2023-10-08T23:05:03.201Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "061e1c8c-b1fa-4d40-a8c1-fc1f79cefa9e",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 58312,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-09T01:37:07.642Z",
+        "updated_at": "2023-10-09T00:55:11.474Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "086c96f6-4426-42b2-8c8b-af2999b1da86",
+        "model": "SUV",
+        "brand": "Honda",
+        "year": 95842,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T12:39:33.425Z",
+        "updated_at": "2023-10-09T06:41:11.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7a46cd2-b0df-419b-bc9d-35223c956fc7",
+        "model": "Hatchback",
+        "brand": "Ford",
+        "year": 8085,
+        "color": "Black",
+        "registration_number": "123ABC",
+        "created_at": "2023-10-09T05:53:33.845Z",
+        "updated_at": "2023-10-08T19:31:26.205Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "52fa107f-b3a9-4b7a-8110-ae040fb6c837",
+        "model": "Sports Car",
+        "brand": "BMW",
+        "year": 81142,
+        "color": "White",
+        "registration_number": "789XYZ",
+        "created_at": "2023-10-09T01:45:05.366Z",
+        "updated_at": "2023-10-09T10:23:20.284Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "77ec1365-befa-4730-a12f-9ee90f438aff",
+        "model": "Electric Vehicle",
+        "brand": "Tesla",
+        "year": 25518,
+        "color": "Silver",
+        "registration_number": "QWE456",
+        "created_at": "2023-10-09T03:33:40.839Z",
+        "updated_at": "2023-10-08T19:35:48.514Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "7e47d807-3d64-465d-8bf4-94eca86ddcef",
+        "start_date": "2023-10-08T14:09:47.870Z",
+        "end_date": "2023-10-09T08:56:35.930Z",
+        "total_price": 52343,
+        "created_at": "2023-10-09T07:56:34.153Z",
+        "updated_at": "2023-10-08T20:27:35.302Z",
+        "car_id": "061e1c8c-b1fa-4d40-a8c1-fc1f79cefa9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d83edcb1-18d0-4a6b-b3a0-e95d153552c9",
+        "start_date": "2023-10-08T13:43:06.245Z",
+        "end_date": "2023-10-09T10:58:40.737Z",
+        "total_price": 52758,
+        "created_at": "2023-10-09T04:50:56.011Z",
+        "updated_at": "2023-10-09T11:27:58.002Z",
+        "car_id": "77ec1365-befa-4730-a12f-9ee90f438aff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "121bf1e1-6389-40d7-be05-2c9136507034",
+        "start_date": "2023-10-08T20:21:03.732Z",
+        "end_date": "2023-10-08T23:33:37.287Z",
+        "total_price": 54759,
+        "created_at": "2023-10-08T19:13:20.851Z",
+        "updated_at": "2023-10-09T09:28:39.361Z",
+        "car_id": "061e1c8c-b1fa-4d40-a8c1-fc1f79cefa9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86b15331-247d-42ac-90dd-ddd6f9fdd54a",
+        "start_date": "2023-10-08T22:59:40.212Z",
+        "end_date": "2023-10-09T01:22:44.621Z",
+        "total_price": 96849,
+        "created_at": "2023-10-09T08:19:37.061Z",
+        "updated_at": "2023-10-09T09:27:35.881Z",
+        "car_id": "52fa107f-b3a9-4b7a-8110-ae040fb6c837",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1133a638-5bd6-4a60-b0ce-86fa3b9cd88a",
+        "start_date": "2023-10-08T19:41:38.029Z",
+        "end_date": "2023-10-08T20:38:55.973Z",
+        "total_price": 29862,
+        "created_at": "2023-10-08T17:00:12.274Z",
+        "updated_at": "2023-10-09T13:35:34.653Z",
+        "car_id": "086c96f6-4426-42b2-8c8b-af2999b1da86",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "573ffc5c-734d-49b9-bc2b-4a9358e4fc69",
+        "email": "Burley_Rath@roq.tech",
+        "firstName": "Sylvia",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/935.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "900f5867-09d3-4fbd-945a-8f785b39ffc3",
+        "email": "Zachariah69@roq.tech",
+        "firstName": "Reese",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79466597",
+        "tenantId": null
+      },
+      {
+        "reference": "570f2183-e24f-48fc-90d8-d7b811214f2f",
+        "email": "Coy_Klein@roq.tech",
+        "firstName": "Dillon",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/99.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b0c5acb-94d4-4472-a3cc-c991c81d3785",
+        "email": "Shyanne.Herzog@roq.tech",
+        "firstName": "Heidi",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0db6346-021f-45a7-9093-ec58130973af",
+        "email": "Annetta18@roq.tech",
+        "firstName": "Cecilia",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "e15c7641-84f3-49a5-b1cd-00fcdb84a51b",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "123 Main Street",
+        "created_at": "2023-10-09T01:38:31.838Z",
+        "updated_at": "2023-10-08T18:33:24.187Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de2d3e94-8001-4339-aca5-d56b5d400531",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "456 Elm Street",
+        "created_at": "2023-10-09T07:48:47.104Z",
+        "updated_at": "2023-10-09T00:22:18.322Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "42704ca8-de5c-416c-a753-c03ac9c8cf65",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "789 Oak Street",
+        "created_at": "2023-10-09T09:44:59.885Z",
+        "updated_at": "2023-10-09T02:58:13.126Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef8df04c-4831-4b26-a73a-184cf793bdbd",
+        "city": "Tokyo",
+        "state": "New South Wales",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "10 Maple Avenue",
+        "created_at": "2023-10-09T11:30:43.785Z",
+        "updated_at": "2023-10-09T10:43:10.419Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "29958767-9456-48c3-b311-06118beda386",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Canada",
+        "zip_code": "V6C 3L5",
+        "street": "555 Pine Street",
+        "created_at": "2023-10-08T21:42:22.917Z",
+        "updated_at": "2023-10-09T11:19:23.982Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "d62e27c4-c95e-40a8-8ab6-8c0e2fab5735",
+        "created_at": "2023-10-08T23:47:33.963Z",
+        "updated_at": "2023-10-08T21:05:05.688Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7fbe1c6-d27e-4466-a8ce-b17ddd5fb01e",
+        "created_at": "2023-10-09T07:27:43.720Z",
+        "updated_at": "2023-10-09T00:38:22.381Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a203f57f-e3bb-4241-8c9e-b0f410cda60d",
+        "created_at": "2023-10-08T15:54:33.810Z",
+        "updated_at": "2023-10-09T10:47:30.013Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21462c95-dfc3-47ea-bd81-6e4098c727c0",
+        "created_at": "2023-10-08T18:53:34.920Z",
+        "updated_at": "2023-10-08T21:32:37.519Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "917d3f7b-39cf-4b2c-bab7-7dc9876da2bd",
+        "created_at": "2023-10-08T20:47:58.207Z",
+        "updated_at": "2023-10-09T06:15:02.840Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "321f410e-b83e-4628-82aa-07b044c61318",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 54188,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-08T15:36:30.759Z",
+        "updated_at": "2023-10-09T05:21:50.073Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "14535b8f-cd0e-4b2c-94bc-e4b1e113ab3b",
+        "model": "SUV",
+        "brand": "Ford",
+        "year": 91885,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T12:20:16.694Z",
+        "updated_at": "2023-10-08T16:54:54.764Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "838d88fb-8ea6-4294-8c8a-063642e94bc7",
+        "model": "Hatchback",
+        "brand": "BMW",
+        "year": 34883,
+        "color": "Black",
+        "registration_number": "123ABC",
+        "created_at": "2023-10-08T21:34:14.260Z",
+        "updated_at": "2023-10-09T04:02:46.280Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31ff3148-9b2d-4f73-9ac9-897bd0b272c0",
+        "model": "Sports Car",
+        "brand": "Mercedes-Benz",
+        "year": 70214,
+        "color": "White",
+        "registration_number": "789XYZ",
+        "created_at": "2023-10-08T13:49:00.787Z",
+        "updated_at": "2023-10-09T09:06:25.347Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0388bf32-1390-455e-a234-a3ede180d17e",
+        "model": "Convertible",
+        "brand": "Honda",
+        "year": 15887,
+        "color": "Silver",
+        "registration_number": "QWE456",
+        "created_at": "2023-10-09T05:36:42.303Z",
+        "updated_at": "2023-10-09T10:24:23.956Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "93d87492-58b6-422e-a11b-837ea7fcdb7c",
+        "start_date": "2023-10-08T17:31:32.715Z",
+        "end_date": "2023-10-09T07:05:32.202Z",
+        "total_price": 44417,
+        "created_at": "2023-10-08T21:55:16.433Z",
+        "updated_at": "2023-10-09T07:12:45.487Z",
+        "car_id": "0388bf32-1390-455e-a234-a3ede180d17e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de5471b1-bd78-441a-bffa-f725e0f8a829",
+        "start_date": "2023-10-09T11:16:08.862Z",
+        "end_date": "2023-10-09T07:05:50.141Z",
+        "total_price": 80909,
+        "created_at": "2023-10-09T08:24:19.789Z",
+        "updated_at": "2023-10-08T21:44:14.807Z",
+        "car_id": "31ff3148-9b2d-4f73-9ac9-897bd0b272c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca932497-a0db-41fb-8e58-d0fa546f7a38",
+        "start_date": "2023-10-09T01:53:45.339Z",
+        "end_date": "2023-10-08T22:19:06.993Z",
+        "total_price": 57868,
+        "created_at": "2023-10-09T05:04:40.963Z",
+        "updated_at": "2023-10-09T13:35:44.866Z",
+        "car_id": "0388bf32-1390-455e-a234-a3ede180d17e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c44d9814-2288-4356-acb2-acd9feb1abe7",
+        "start_date": "2023-10-09T06:13:15.613Z",
+        "end_date": "2023-10-09T02:31:30.279Z",
+        "total_price": 91947,
+        "created_at": "2023-10-09T02:43:38.818Z",
+        "updated_at": "2023-10-09T01:30:22.509Z",
+        "car_id": "0388bf32-1390-455e-a234-a3ede180d17e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d921453-93c5-4585-9276-02d593a680a1",
+        "start_date": "2023-10-09T06:11:20.132Z",
+        "end_date": "2023-10-08T15:52:55.442Z",
+        "total_price": 30801,
+        "created_at": "2023-10-08T15:15:37.992Z",
+        "updated_at": "2023-10-09T07:09:35.185Z",
+        "car_id": "14535b8f-cd0e-4b2c-94bc-e4b1e113ab3b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4897689a-a76d-4bfd-8ac9-3a2f7f5484f3",
+        "email": "London.Jacobs70@roq.tech",
+        "firstName": "Violette",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/373.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60245578-c2df-48d1-9edb-9586454ab17c",
+        "email": "Tate.Franey@roq.tech",
+        "firstName": "Dewayne",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12499371",
+        "tenantId": null
+      },
+      {
+        "reference": "ed407ebe-e1de-4436-87b7-819b21957d94",
+        "email": "Gaetano.Douglas-Anderson@roq.tech",
+        "firstName": "Marcelino",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6137265",
+        "tenantId": null
+      },
+      {
+        "reference": "f0d9b8ed-7697-4113-9bae-10577a878d45",
+        "email": "Christian_DuBuque@roq.tech",
+        "firstName": "Bernita",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56563964",
+        "tenantId": null
+      },
+      {
+        "reference": "7981aac6-4c52-4d4d-a572-be36e53ec134",
+        "email": "Celestine.DAmore@roq.tech",
+        "firstName": "Lora",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/327.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "38111293-b419-426e-98df-6b230603ef7e",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "Main Street",
+        "created_at": "2023-10-08T17:27:14.335Z",
+        "updated_at": "2023-10-09T10:59:37.902Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1589aaf0-ff7c-4cf3-bc51-acfdad9accc8",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "Park Avenue",
+        "created_at": "2023-10-09T03:43:48.245Z",
+        "updated_at": "2023-10-08T14:10:45.665Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9c0007d-cc8f-4b5e-9b5a-d65d6bf02fca",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "Oxford Street",
+        "created_at": "2023-10-08T23:41:19.467Z",
+        "updated_at": "2023-10-09T06:37:09.986Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20a8e77f-d2d5-4e49-b1fc-8d8a8a32ea5c",
+        "city": "Tokyo",
+        "state": "New South Wales",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "Ginza",
+        "created_at": "2023-10-09T08:59:03.219Z",
+        "updated_at": "2023-10-08T18:45:32.910Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c509777-62b8-456b-9f33-2895a0d0d786",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Canada",
+        "zip_code": "V6C 3L5",
+        "street": "Yonge Street",
+        "created_at": "2023-10-09T07:35:13.455Z",
+        "updated_at": "2023-10-08T23:45:29.289Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "c762338f-95b6-41a0-9f1f-af5d99523639",
+        "created_at": "2023-10-09T03:47:01.694Z",
+        "updated_at": "2023-10-08T19:11:40.025Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "117a6e83-8343-488b-9dea-faac574e9bd3",
+        "created_at": "2023-10-08T22:34:26.410Z",
+        "updated_at": "2023-10-09T01:15:43.268Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f1c726a-855b-4f9c-9910-b3af4e3ebc01",
+        "created_at": "2023-10-09T07:25:15.078Z",
+        "updated_at": "2023-10-08T21:38:38.328Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77d7521c-fbcf-4726-8fef-451d7e809f5f",
+        "created_at": "2023-10-08T18:19:32.729Z",
+        "updated_at": "2023-10-09T10:16:38.880Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "584cdf9d-ace9-4e4b-84e8-a8f32fd789d1",
+        "created_at": "2023-10-08T23:13:16.034Z",
+        "updated_at": "2023-10-09T11:42:26.298Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "2d9d5388-0db7-458f-8435-e3f43da1266c",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 32814,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-08T14:28:50.970Z",
+        "updated_at": "2023-10-08T18:29:10.377Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e8e760ef-0a98-41d2-be05-e62402ed169f",
+        "model": "SUV",
+        "brand": "BMW",
+        "year": 53137,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T13:36:10.698Z",
+        "updated_at": "2023-10-09T03:39:05.747Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6fafc8df-08b5-45fb-9936-6e10c7b009f6",
+        "model": "Hatchback",
+        "brand": "Ford",
+        "year": 98108,
+        "color": "Black",
+        "registration_number": "123ABC",
+        "created_at": "2023-10-08T17:24:57.724Z",
+        "updated_at": "2023-10-09T10:11:31.671Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b45bad2-42f9-4905-be55-a136efbf62f0",
+        "model": "Convertible",
+        "brand": "Mercedes-Benz",
+        "year": 94254,
+        "color": "White",
+        "registration_number": "789XYZ",
+        "created_at": "2023-10-09T11:05:20.625Z",
+        "updated_at": "2023-10-09T11:03:08.569Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f7f6e0f-5cc2-4367-8b49-747022167034",
+        "model": "Sports Car",
+        "brand": "Tesla",
+        "year": 13334,
+        "color": "Silver",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-08T23:17:52.046Z",
+        "updated_at": "2023-10-09T12:15:22.400Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "0bdbed11-2d4f-41d3-b4e7-74d220e08e3b",
+        "start_date": "2023-10-09T00:12:33.254Z",
+        "end_date": "2023-10-09T00:38:13.081Z",
+        "total_price": 56466,
+        "created_at": "2023-10-08T23:19:29.143Z",
+        "updated_at": "2023-10-09T11:18:51.299Z",
+        "car_id": "6fafc8df-08b5-45fb-9936-6e10c7b009f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2727d81-9eb8-4ebc-a723-f86076f8927c",
+        "start_date": "2023-10-09T04:22:18.615Z",
+        "end_date": "2023-10-08T13:51:56.819Z",
+        "total_price": 70995,
+        "created_at": "2023-10-09T13:34:09.022Z",
+        "updated_at": "2023-10-09T10:37:34.719Z",
+        "car_id": "e8e760ef-0a98-41d2-be05-e62402ed169f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef085c86-764d-4154-a86a-5d666afeedfc",
+        "start_date": "2023-10-09T00:12:54.404Z",
+        "end_date": "2023-10-09T01:07:17.718Z",
+        "total_price": 94229,
+        "created_at": "2023-10-08T16:05:04.966Z",
+        "updated_at": "2023-10-09T06:26:24.155Z",
+        "car_id": "6fafc8df-08b5-45fb-9936-6e10c7b009f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c2ea85d-4841-479f-829f-91929e902f96",
+        "start_date": "2023-10-08T19:41:33.297Z",
+        "end_date": "2023-10-09T08:03:13.561Z",
+        "total_price": 76970,
+        "created_at": "2023-10-09T00:29:17.060Z",
+        "updated_at": "2023-10-09T07:17:17.885Z",
+        "car_id": "0f7f6e0f-5cc2-4367-8b49-747022167034",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54778fa5-0ae3-4dfc-922c-1a25866e5159",
+        "start_date": "2023-10-08T23:33:40.884Z",
+        "end_date": "2023-10-09T12:47:43.059Z",
+        "total_price": 66661,
+        "created_at": "2023-10-08T14:58:50.964Z",
+        "updated_at": "2023-10-09T02:54:22.145Z",
+        "car_id": "e8e760ef-0a98-41d2-be05-e62402ed169f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6a7ee705-1f8c-40fb-b49a-228b30fe90b4",
+        "email": "Chaim31@roq.tech",
+        "firstName": "Horace",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/15.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7fb05fd-062a-4f7b-b303-822549f5157e",
+        "email": "Robyn73@roq.tech",
+        "firstName": "Ellis",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98cd28e2-5c4f-4859-a016-21f9f7c83185",
+        "email": "Mathew_Krajcik@roq.tech",
+        "firstName": "Jason",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33736757",
+        "tenantId": null
+      },
+      {
+        "reference": "75904e57-66f6-45ab-b929-ba157e74f4be",
+        "email": "Lexus91@roq.tech",
+        "firstName": "Misael",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32345157",
+        "tenantId": null
+      },
+      {
+        "reference": "9556e230-2fe8-4926-95ee-76b3fef9e4ff",
+        "email": "Bobbie96@roq.tech",
+        "firstName": "Hollis",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/466.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "dd7e2704-f7d8-4405-90b2-7d4386f233b2",
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "123 Main Street",
+        "created_at": "2023-10-08T14:38:52.005Z",
+        "updated_at": "2023-10-09T09:11:57.858Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2f530ac-d332-40e7-aff9-c1f2b371457b",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "456 Elm Avenue",
+        "created_at": "2023-10-08T15:32:05.366Z",
+        "updated_at": "2023-10-09T08:44:07.290Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47f27d8e-6b14-46d5-a21d-01249a489cdd",
+        "city": "London",
+        "state": "England",
+        "country": "France",
+        "zip_code": "SW1A 1AA",
+        "street": "789 Oak Lane",
+        "created_at": "2023-10-09T07:01:56.594Z",
+        "updated_at": "2023-10-09T00:40:44.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "958c7d72-63f6-47aa-b391-cac6660a4f4d",
+        "city": "Paris",
+        "state": "France",
+        "country": "Japan",
+        "zip_code": "75001",
+        "street": "321 Pine Road",
+        "created_at": "2023-10-08T21:34:29.707Z",
+        "updated_at": "2023-10-09T09:34:03.524Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90cea66a-1e55-4c2a-a361-014efac4f1d8",
+        "city": "Tokyo",
+        "state": "Japan",
+        "country": "Germany",
+        "zip_code": "100-0001",
+        "street": "987 Maple Drive",
+        "created_at": "2023-10-09T06:12:56.611Z",
+        "updated_at": "2023-10-08T18:28:57.078Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "eb50c4c9-3714-454b-8547-f9ca95c315c2",
+        "created_at": "2023-10-08T23:31:04.997Z",
+        "updated_at": "2023-10-08T15:34:05.365Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c1dc95b-14b5-4c0c-9eb5-a214d0d1015e",
+        "created_at": "2023-10-08T21:47:33.544Z",
+        "updated_at": "2023-10-09T02:42:13.039Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db665015-c57d-40a9-a5ea-327d4381759d",
+        "created_at": "2023-10-09T00:43:44.156Z",
+        "updated_at": "2023-10-09T00:00:02.979Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c140c4e3-869e-4efa-9ac6-cbac645205dd",
+        "created_at": "2023-10-08T15:29:08.159Z",
+        "updated_at": "2023-10-09T12:50:46.578Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b171d09f-317e-4be6-b3ed-cb546f1ca3e0",
+        "created_at": "2023-10-09T02:07:10.387Z",
+        "updated_at": "2023-10-08T20:38:25.140Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "c1ca8e30-8ca1-45d0-98b1-0bdde382ffc6",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 75841,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-09T07:12:56.151Z",
+        "updated_at": "2023-10-09T05:47:34.430Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96280632-088c-4da8-8932-ce6a991bcfee",
+        "model": "SUV",
+        "brand": "Honda",
+        "year": 8155,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-09T01:35:46.396Z",
+        "updated_at": "2023-10-08T15:43:37.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bfc3556a-c757-4b4c-93a3-14e988d08ab0",
+        "model": "Hatchback",
+        "brand": "Ford",
+        "year": 2254,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-10-09T04:24:46.131Z",
+        "updated_at": "2023-10-08T22:07:47.368Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf8a6fb0-eafa-4515-bdd6-e475adac2ccc",
+        "model": "Convertible",
+        "brand": "BMW",
+        "year": 58589,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-10-08T16:33:57.955Z",
+        "updated_at": "2023-10-09T01:41:23.053Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "69282c3c-bdd5-4877-bbf0-7163654e6244",
+        "model": "Sports Car",
+        "brand": "Mercedes-Benz",
+        "year": 31395,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-10-09T03:56:35.434Z",
+        "updated_at": "2023-10-09T04:23:40.360Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "cea07d1c-7b92-4aeb-8df1-21c57eb24519",
+        "start_date": "2023-10-08T19:09:40.674Z",
+        "end_date": "2023-10-08T23:59:53.309Z",
+        "total_price": 49274,
+        "created_at": "2023-10-09T03:41:38.252Z",
+        "updated_at": "2023-10-09T02:54:46.316Z",
+        "car_id": "96280632-088c-4da8-8932-ce6a991bcfee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a01404eb-bbfb-4713-950d-49fa59ddac17",
+        "start_date": "2023-10-09T11:34:24.123Z",
+        "end_date": "2023-10-09T08:01:41.675Z",
+        "total_price": 93713,
+        "created_at": "2023-10-09T03:43:32.870Z",
+        "updated_at": "2023-10-09T09:54:03.931Z",
+        "car_id": "c1ca8e30-8ca1-45d0-98b1-0bdde382ffc6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f5bca22-f82a-4344-8ebf-8b10e57b4820",
+        "start_date": "2023-10-08T21:28:55.300Z",
+        "end_date": "2023-10-09T11:24:15.464Z",
+        "total_price": 44113,
+        "created_at": "2023-10-09T08:43:44.512Z",
+        "updated_at": "2023-10-09T08:06:45.175Z",
+        "car_id": "bf8a6fb0-eafa-4515-bdd6-e475adac2ccc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d40fae0e-2363-4aec-bfea-238cc5cc8a79",
+        "start_date": "2023-10-09T01:33:59.665Z",
+        "end_date": "2023-10-09T11:28:16.003Z",
+        "total_price": 23716,
+        "created_at": "2023-10-09T03:36:25.353Z",
+        "updated_at": "2023-10-08T14:09:54.715Z",
+        "car_id": "96280632-088c-4da8-8932-ce6a991bcfee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2066906b-2766-45b9-81f4-1fb67da26ee4",
+        "start_date": "2023-10-08T18:52:26.036Z",
+        "end_date": "2023-10-08T19:45:27.978Z",
+        "total_price": 59772,
+        "created_at": "2023-10-08T16:59:28.922Z",
+        "updated_at": "2023-10-08T15:53:59.122Z",
+        "car_id": "bf8a6fb0-eafa-4515-bdd6-e475adac2ccc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "932742f9-90a5-4f6e-b8d8-68cc57e6acc0",
+        "email": "Lorenz16@roq.tech",
+        "firstName": "Jarrett",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/150.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ab6de15-7224-4f39-90cf-5a47470734e3",
+        "email": "Michael_Conn82@roq.tech",
+        "firstName": "Myra",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51653",
+        "tenantId": null
+      },
+      {
+        "reference": "24006402-d5d0-4fe9-a39e-da1a2c66e5bc",
+        "email": "Aliya.Osinski20@roq.tech",
+        "firstName": "Harry",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64049191",
+        "tenantId": null
+      },
+      {
+        "reference": "171cc93c-a848-4245-89f5-d02f24b53e75",
+        "email": "Anibal_Beer@roq.tech",
+        "firstName": "Joe",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1097.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dbfde6f-09da-41ae-a619-322c5f4202f8",
+        "email": "Vanessa.Dickens@roq.tech",
+        "firstName": "Conor",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/97.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "80393a30-906e-4d7b-9ce1-58c76e3fbb42",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "Main Street",
+        "created_at": "2023-10-09T07:52:57.509Z",
+        "updated_at": "2023-10-09T09:42:35.599Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f9509787-f448-47b8-b7f2-e9b344d52253",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "Park Avenue",
+        "created_at": "2023-10-08T21:58:22.024Z",
+        "updated_at": "2023-10-09T08:13:34.483Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "602b5c53-d714-4da0-928e-12482937ef0d",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "Oxford Street",
+        "created_at": "2023-10-08T14:29:19.975Z",
+        "updated_at": "2023-10-08T13:51:03.988Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ddec0f87-bff6-4555-b7da-2675cac693ff",
+        "city": "Tokyo",
+        "state": "New South Wales",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "Ginza",
+        "created_at": "2023-10-08T19:25:20.932Z",
+        "updated_at": "2023-10-08T19:43:01.237Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "978fc4d6-fa42-4a40-9764-5f805722d7a5",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Germany",
+        "zip_code": "2000",
+        "street": "Kurfürstendamm",
+        "created_at": "2023-10-09T11:41:22.834Z",
+        "updated_at": "2023-10-09T00:01:21.337Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "c6f711cc-54fd-41a9-b6f9-73e5fccca391",
+        "created_at": "2023-10-08T17:03:26.228Z",
+        "updated_at": "2023-10-09T01:52:54.700Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3c7291b-3732-42ff-9d52-bc364c506d07",
+        "created_at": "2023-10-08T21:14:01.829Z",
+        "updated_at": "2023-10-09T08:57:40.629Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "611ee702-9cdd-4626-b546-3d699e54ef48",
+        "created_at": "2023-10-08T22:42:54.669Z",
+        "updated_at": "2023-10-08T19:37:55.343Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15ada5f7-e895-428a-85ac-9ce0c093e299",
+        "created_at": "2023-10-08T17:11:42.716Z",
+        "updated_at": "2023-10-09T11:45:15.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "617d5411-979b-4685-b670-6548db398c7c",
+        "created_at": "2023-10-08T14:54:16.093Z",
+        "updated_at": "2023-10-08T21:13:17.974Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "a36db93e-ce7e-42f8-a5aa-69ebecd1ec16",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 80835,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-08T16:01:10.462Z",
+        "updated_at": "2023-10-09T13:19:10.481Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "751e10cb-2ffa-4ae0-87f9-d9430b8c95e1",
+        "model": "SUV",
+        "brand": "BMW",
+        "year": 34760,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T11:48:32.936Z",
+        "updated_at": "2023-10-09T04:23:43.264Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2287b4dd-488a-4b83-a59e-cc1f6c5e0417",
+        "model": "Hatchback",
+        "brand": "Ford",
+        "year": 64777,
+        "color": "Black",
+        "registration_number": "1234AB",
+        "created_at": "2023-10-09T10:34:29.151Z",
+        "updated_at": "2023-10-08T19:33:15.938Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "030f6aed-affe-4fac-afed-a58035a6194a",
+        "model": "Convertible",
+        "brand": "Mercedes-Benz",
+        "year": 32834,
+        "color": "White",
+        "registration_number": "DEF567",
+        "created_at": "2023-10-08T23:21:08.049Z",
+        "updated_at": "2023-10-08T14:54:58.778Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e05412e-3740-4107-9e72-11a3e48d0ef0",
+        "model": "Sports Car",
+        "brand": "Tesla",
+        "year": 94545,
+        "color": "Silver",
+        "registration_number": "GHI890",
+        "created_at": "2023-10-08T16:30:57.901Z",
+        "updated_at": "2023-10-09T12:29:22.859Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "747702cb-e3b9-4866-bc5b-ad237f3ac21d",
+        "start_date": "2023-10-09T12:34:33.945Z",
+        "end_date": "2023-10-09T06:30:39.831Z",
+        "total_price": 17449,
+        "created_at": "2023-10-09T12:41:25.479Z",
+        "updated_at": "2023-10-08T22:37:47.553Z",
+        "car_id": "a36db93e-ce7e-42f8-a5aa-69ebecd1ec16",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c4eb12f-035e-4ebc-9576-e184104d32db",
+        "start_date": "2023-10-08T20:54:55.056Z",
+        "end_date": "2023-10-09T10:57:22.555Z",
+        "total_price": 56150,
+        "created_at": "2023-10-09T11:59:35.812Z",
+        "updated_at": "2023-10-09T05:37:27.527Z",
+        "car_id": "9e05412e-3740-4107-9e72-11a3e48d0ef0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41aacb00-13fd-455c-80e3-343ab0097d21",
+        "start_date": "2023-10-09T02:31:21.764Z",
+        "end_date": "2023-10-09T12:31:27.988Z",
+        "total_price": 75862,
+        "created_at": "2023-10-08T19:59:23.678Z",
+        "updated_at": "2023-10-09T10:18:29.278Z",
+        "car_id": "030f6aed-affe-4fac-afed-a58035a6194a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7417e457-f795-426b-a9ad-352e01f0c266",
+        "start_date": "2023-10-08T14:21:45.633Z",
+        "end_date": "2023-10-09T08:28:42.970Z",
+        "total_price": 87243,
+        "created_at": "2023-10-09T04:21:53.307Z",
+        "updated_at": "2023-10-08T14:34:20.802Z",
+        "car_id": "751e10cb-2ffa-4ae0-87f9-d9430b8c95e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d3345ae-2b95-41c1-9b5d-8ab5dbb052cc",
+        "start_date": "2023-10-09T00:49:02.819Z",
+        "end_date": "2023-10-08T20:40:14.130Z",
+        "total_price": 62233,
+        "created_at": "2023-10-08T16:09:29.194Z",
+        "updated_at": "2023-10-09T12:39:58.983Z",
+        "car_id": "751e10cb-2ffa-4ae0-87f9-d9430b8c95e1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0c091f75-d8d2-4fb2-b37e-bc023558a9e8",
+        "email": "Halie.Hickle44@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28789687",
+        "tenantId": null
+      },
+      {
+        "reference": "3eaa5724-ea59-42b4-877b-57cc8be7736a",
+        "email": "Alanis6@roq.tech",
+        "firstName": "Avis",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97389093",
+        "tenantId": null
+      },
+      {
+        "reference": "53ce60a7-5cd0-4e06-a333-f3e1f3137292",
+        "email": "Adrian_Kling4@roq.tech",
+        "firstName": "Naomie",
+        "lastName": "Dare-Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59984976",
+        "tenantId": null
+      },
+      {
+        "reference": "d2a69516-8b8e-4c2d-a457-3353db459585",
+        "email": "Nikki55@roq.tech",
+        "firstName": "Hallie",
+        "lastName": "Kautzer-Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/411.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "397a7904-be8c-4fd9-ab12-ce4aaedcdd23",
+        "email": "Rosalinda_McCullough@roq.tech",
+        "firstName": "Kenya",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1156.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "4c90c4a3-e17b-4fff-a24f-4c435c11a651",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "Main Street",
+        "created_at": "2023-10-09T08:16:26.734Z",
+        "updated_at": "2023-10-09T05:04:11.202Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5991cb2f-295a-44c1-9410-b5ae5a18797c",
+        "city": "London",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "SW1A 1AA",
+        "street": "High Street",
+        "created_at": "2023-10-08T14:49:36.884Z",
+        "updated_at": "2023-10-09T04:52:43.801Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3e0ac781-86e4-4b72-b461-84486d800895",
+        "city": "Tokyo",
+        "state": "Florida",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "Shibuya Crossing",
+        "created_at": "2023-10-08T16:29:14.850Z",
+        "updated_at": "2023-10-08T21:10:07.155Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da5d3576-a21e-4477-8e6b-bd6d7009ca02",
+        "city": "Paris",
+        "state": "New South Wales",
+        "country": "France",
+        "zip_code": "75001",
+        "street": "Champs-Élysées",
+        "created_at": "2023-10-08T15:17:46.120Z",
+        "updated_at": "2023-10-08T22:59:36.800Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6efdb8f-9c1c-4449-8b2a-9f31fca0f413",
+        "city": "Sydney",
+        "state": "Quebec",
+        "country": "Australia",
+        "zip_code": "2000",
+        "street": "George Street",
+        "created_at": "2023-10-09T02:25:36.083Z",
+        "updated_at": "2023-10-08T17:17:20.765Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "7ecf3bce-aca2-465e-a26c-2225a0a9c433",
+        "created_at": "2023-10-08T20:05:55.801Z",
+        "updated_at": "2023-10-08T22:28:39.497Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5b23dc6-3cab-42c0-9077-6c3b3cadfd8c",
+        "created_at": "2023-10-09T06:08:16.327Z",
+        "updated_at": "2023-10-08T20:13:39.653Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4391e339-adff-4668-ba48-dcdc68eedace",
+        "created_at": "2023-10-08T23:14:59.520Z",
+        "updated_at": "2023-10-09T00:46:25.575Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff910132-7e0e-4c69-aa3a-58bde479fdb7",
+        "created_at": "2023-10-08T19:35:43.671Z",
+        "updated_at": "2023-10-09T05:36:19.193Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8be7961-9044-4949-81af-81101694b5e8",
+        "created_at": "2023-10-09T05:09:17.995Z",
+        "updated_at": "2023-10-08T21:51:05.562Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "23ac7e92-196d-48ce-b173-c261c1fc7957",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 53308,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-09T00:34:00.575Z",
+        "updated_at": "2023-10-08T19:42:48.683Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "84bc3d5a-567b-4bf6-b79c-da0819182aa3",
+        "model": "SUV",
+        "brand": "BMW",
+        "year": 6165,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T08:43:49.391Z",
+        "updated_at": "2023-10-08T23:32:29.340Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17bcedb4-8d41-455a-a535-bba9c87cdbd5",
+        "model": "Hatchback",
+        "brand": "Ford",
+        "year": 32430,
+        "color": "Black",
+        "registration_number": "123456",
+        "created_at": "2023-10-09T10:37:47.640Z",
+        "updated_at": "2023-10-08T23:47:30.935Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da20c16c-0645-4c14-899c-3d37f6b2a7b2",
+        "model": "Convertible",
+        "brand": "Mercedes-Benz",
+        "year": 61215,
+        "color": "White",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-09T06:26:47.541Z",
+        "updated_at": "2023-10-09T09:41:23.526Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b404098f-2072-4373-b864-a2fdbb60d217",
+        "model": "Sports Car",
+        "brand": "Tesla",
+        "year": 39647,
+        "color": "Silver",
+        "registration_number": "GHI789",
+        "created_at": "2023-10-09T03:16:18.115Z",
+        "updated_at": "2023-10-09T02:23:29.191Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "55cb853b-2dc7-4863-8433-0ce38124be6a",
+        "start_date": "2023-10-08T21:48:21.088Z",
+        "end_date": "2023-10-08T23:59:50.698Z",
+        "total_price": 96248,
+        "created_at": "2023-10-09T06:26:19.022Z",
+        "updated_at": "2023-10-09T06:47:29.688Z",
+        "car_id": "23ac7e92-196d-48ce-b173-c261c1fc7957",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8add2743-bb08-425c-a15b-019b5f5ed349",
+        "start_date": "2023-10-08T13:59:06.923Z",
+        "end_date": "2023-10-08T14:08:49.874Z",
+        "total_price": 69007,
+        "created_at": "2023-10-08T17:42:43.422Z",
+        "updated_at": "2023-10-09T08:23:33.750Z",
+        "car_id": "da20c16c-0645-4c14-899c-3d37f6b2a7b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f895c5be-8bf4-4c73-bded-5322ff8a2304",
+        "start_date": "2023-10-08T16:59:27.079Z",
+        "end_date": "2023-10-09T03:02:20.305Z",
+        "total_price": 16374,
+        "created_at": "2023-10-09T02:46:25.283Z",
+        "updated_at": "2023-10-09T00:30:30.318Z",
+        "car_id": "da20c16c-0645-4c14-899c-3d37f6b2a7b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6917bc2a-6911-45a0-a7c3-6699a05cabba",
+        "start_date": "2023-10-09T01:07:06.322Z",
+        "end_date": "2023-10-09T11:51:29.351Z",
+        "total_price": 92443,
+        "created_at": "2023-10-08T17:52:01.753Z",
+        "updated_at": "2023-10-08T22:23:13.839Z",
+        "car_id": "84bc3d5a-567b-4bf6-b79c-da0819182aa3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80ebfbc4-efba-4efe-a76e-71a95b699459",
+        "start_date": "2023-10-09T13:20:09.905Z",
+        "end_date": "2023-10-08T23:18:52.686Z",
+        "total_price": 17564,
+        "created_at": "2023-10-08T18:36:22.366Z",
+        "updated_at": "2023-10-09T04:18:04.664Z",
+        "car_id": "23ac7e92-196d-48ce-b173-c261c1fc7957",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f90728f3-b6b4-4545-8fee-94459aad7106",
+        "email": "Isabel.Torp@roq.tech",
+        "firstName": "Ulices",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14434503",
+        "tenantId": null
+      },
+      {
+        "reference": "5947cae2-9b38-401e-8397-880fab599fd8",
+        "email": "Maybelle.Kessler84@roq.tech",
+        "firstName": "Tyrique",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40833319",
+        "tenantId": null
+      },
+      {
+        "reference": "e441f35a-d28c-4a94-9fd1-9d91fe7d99dd",
+        "email": "Dena_Simonis17@roq.tech",
+        "firstName": "Carmela",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89680222",
+        "tenantId": null
+      },
+      {
+        "reference": "c52e5f17-9036-45c2-8a0b-b32a0477ba05",
+        "email": "Kay.Heller-Lakin80@roq.tech",
+        "firstName": "Steve",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15023934",
+        "tenantId": null
+      },
+      {
+        "reference": "c22e7c3d-b1c2-40db-9f59-f6891b61fed7",
+        "email": "Alfredo.Grant@roq.tech",
+        "firstName": "Amber",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/430.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "6b1db2a4-c652-4a64-a289-ea73b19797db",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "Main Street",
+        "created_at": "2023-10-08T19:02:03.512Z",
+        "updated_at": "2023-10-09T10:25:11.113Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90274983-1621-4c40-ad30-dcd83efa88c5",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "Park Avenue",
+        "created_at": "2023-10-09T13:03:48.329Z",
+        "updated_at": "2023-10-09T11:43:19.441Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "68fe8845-7df0-497c-8337-16762f1c6410",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "Oxford Street",
+        "created_at": "2023-10-09T02:59:57.164Z",
+        "updated_at": "2023-10-08T20:44:35.898Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5952c4aa-c68c-43f3-86ea-969a1a97ac45",
+        "city": "Tokyo",
+        "state": "New South Wales",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "Ginza",
+        "created_at": "2023-10-09T13:38:35.242Z",
+        "updated_at": "2023-10-09T08:06:19.367Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c56b188-a3c9-4ae7-bb3a-d2bfdec0d9e1",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Germany",
+        "zip_code": "2000",
+        "street": "Martin-Luther-Strasse",
+        "created_at": "2023-10-09T10:45:46.637Z",
+        "updated_at": "2023-10-09T06:58:09.874Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "7006efd1-2267-4943-83b0-ba4e24aad5a8",
+        "created_at": "2023-10-08T14:47:26.707Z",
+        "updated_at": "2023-10-08T22:39:05.702Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9304e63-a650-4457-8299-0a47e020e177",
+        "created_at": "2023-10-08T14:56:33.201Z",
+        "updated_at": "2023-10-09T10:32:55.425Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55cd5d23-b547-4fd8-8eb6-c6712cce427c",
+        "created_at": "2023-10-08T21:45:24.363Z",
+        "updated_at": "2023-10-09T07:45:09.416Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d676f61-5b6b-475a-aff9-b8053cd02e81",
+        "created_at": "2023-10-08T16:07:26.983Z",
+        "updated_at": "2023-10-09T07:56:34.685Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5d01dcf-f53c-4857-a41f-75806e0498c9",
+        "created_at": "2023-10-09T06:43:02.031Z",
+        "updated_at": "2023-10-08T23:04:23.570Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d822ec4a-75c0-43a8-8ba2-55db5e772113",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 23991,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-08T13:49:33.345Z",
+        "updated_at": "2023-10-08T14:51:20.155Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55f6598c-a8ea-4535-85bf-4cb5fe0c5dd9",
+        "model": "SUV",
+        "brand": "BMW",
+        "year": 38686,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T09:43:52.530Z",
+        "updated_at": "2023-10-08T22:53:33.623Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "65a3a9b8-9035-4c1d-99d9-45ddebab80aa",
+        "model": "Hatchback",
+        "brand": "Tesla",
+        "year": 97131,
+        "color": "Black",
+        "registration_number": "123456",
+        "created_at": "2023-10-09T00:41:19.494Z",
+        "updated_at": "2023-10-08T13:51:04.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53fb3990-e84c-4d2c-a561-02950748d701",
+        "model": "Sports Car",
+        "brand": "Ford",
+        "year": 96230,
+        "color": "White",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-09T12:52:01.939Z",
+        "updated_at": "2023-10-09T10:08:58.715Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1d167e88-8a4e-4b11-81eb-d3bc7bd365e1",
+        "model": "Electric",
+        "brand": "Mercedes-Benz",
+        "year": 78735,
+        "color": "Silver",
+        "registration_number": "GHI789",
+        "created_at": "2023-10-09T02:12:30.050Z",
+        "updated_at": "2023-10-09T04:05:42.637Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "fe6e58cc-593e-4ac7-a752-ec48288d9a3c",
+        "start_date": "2023-10-09T02:09:09.868Z",
+        "end_date": "2023-10-09T07:46:03.052Z",
+        "total_price": 41645,
+        "created_at": "2023-10-08T15:35:33.815Z",
+        "updated_at": "2023-10-08T20:57:11.542Z",
+        "car_id": "d822ec4a-75c0-43a8-8ba2-55db5e772113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44794f4b-b6ce-4b0d-88de-4de3b03f77a2",
+        "start_date": "2023-10-09T04:30:30.776Z",
+        "end_date": "2023-10-09T01:28:17.240Z",
+        "total_price": 63783,
+        "created_at": "2023-10-09T09:15:38.957Z",
+        "updated_at": "2023-10-08T18:15:21.476Z",
+        "car_id": "65a3a9b8-9035-4c1d-99d9-45ddebab80aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fba36ce0-a808-41c9-8587-bccf4f248910",
+        "start_date": "2023-10-08T23:21:21.577Z",
+        "end_date": "2023-10-08T23:23:33.993Z",
+        "total_price": 58345,
+        "created_at": "2023-10-09T05:32:12.212Z",
+        "updated_at": "2023-10-09T11:53:11.791Z",
+        "car_id": "d822ec4a-75c0-43a8-8ba2-55db5e772113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb3e963-efaf-412f-b0c1-c80be0456f39",
+        "start_date": "2023-10-09T00:07:08.402Z",
+        "end_date": "2023-10-09T11:57:10.576Z",
+        "total_price": 35463,
+        "created_at": "2023-10-08T18:45:47.649Z",
+        "updated_at": "2023-10-08T19:40:30.047Z",
+        "car_id": "55f6598c-a8ea-4535-85bf-4cb5fe0c5dd9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cabebd0-1f45-47d1-9bed-1cf6cf7bee3b",
+        "start_date": "2023-10-09T12:04:18.896Z",
+        "end_date": "2023-10-08T19:03:18.869Z",
+        "total_price": 91720,
+        "created_at": "2023-10-08T18:25:07.134Z",
+        "updated_at": "2023-10-09T12:22:54.122Z",
+        "car_id": "65a3a9b8-9035-4c1d-99d9-45ddebab80aa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f91826d5-8030-4f2d-a920-41531dbb50d9",
+        "email": "Freeman6@roq.tech",
+        "firstName": "Tony",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8472644",
+        "tenantId": null
+      },
+      {
+        "reference": "ee1f8d22-4c44-4486-b10e-9abdd256480c",
+        "email": "Della.Renner23@roq.tech",
+        "firstName": "Elliot",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82250428",
+        "tenantId": null
+      },
+      {
+        "reference": "2d1d37be-b105-4e0b-8a2a-8b5154589941",
+        "email": "Brooklyn72@roq.tech",
+        "firstName": "Maynard",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f7611c9-609a-4cd9-843e-0b0328619c13",
+        "email": "Gerard.Kohler55@roq.tech",
+        "firstName": "Liliane",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50172000",
+        "tenantId": null
+      },
+      {
+        "reference": "16b4e403-63b4-4814-ba47-3df9a85421a9",
+        "email": "Guiseppe26@roq.tech",
+        "firstName": "Maye",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/294.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "e0c7ba53-7b35-44d1-a1cb-fba0d0121941",
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "123 Main Street",
+        "created_at": "2023-10-09T01:47:25.342Z",
+        "updated_at": "2023-10-09T11:41:46.021Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "74b96437-b81f-4665-ad17-288463091722",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "90001",
+        "street": "456 Elm Street",
+        "created_at": "2023-10-08T20:35:40.226Z",
+        "updated_at": "2023-10-09T09:09:24.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61fe7a4b-748b-4438-9669-c25a489f8f1f",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "zip_code": "SW1A 1AA",
+        "street": "789 Oak Street",
+        "created_at": "2023-10-09T04:36:59.695Z",
+        "updated_at": "2023-10-09T02:08:27.740Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8708e8c5-09d1-4f71-af9a-6bd31c93b40f",
+        "city": "Paris",
+        "state": "France",
+        "country": "France",
+        "zip_code": "75000",
+        "street": "10 Pine Street",
+        "created_at": "2023-10-08T15:12:27.832Z",
+        "updated_at": "2023-10-09T00:28:19.146Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f651e4fe-12c5-4f1d-974d-360e9e814f92",
+        "city": "Tokyo",
+        "state": "Japan",
+        "country": "Japan",
+        "zip_code": "100-0001",
+        "street": "555 Maple Street",
+        "created_at": "2023-10-09T02:52:32.113Z",
+        "updated_at": "2023-10-09T01:23:42.297Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "796be3f5-b4e1-44c7-a602-9f962d2039a0",
+        "created_at": "2023-10-09T02:16:28.376Z",
+        "updated_at": "2023-10-09T05:24:06.504Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0633e836-496c-4336-8b6b-b535f1f10ce6",
+        "created_at": "2023-10-08T13:50:39.414Z",
+        "updated_at": "2023-10-09T12:57:32.031Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce5b8566-b1e6-439f-a1e0-b3b662a8778a",
+        "created_at": "2023-10-08T17:34:50.938Z",
+        "updated_at": "2023-10-08T17:47:33.763Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22c505f3-2f50-4914-b51c-56aa59a8b686",
+        "created_at": "2023-10-09T11:14:38.952Z",
+        "updated_at": "2023-10-09T05:47:20.092Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36d9c6b7-9766-458d-83ac-3c94a92110cd",
+        "created_at": "2023-10-09T05:46:07.110Z",
+        "updated_at": "2023-10-08T17:27:58.850Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "38a43f79-661a-4193-a22d-0a36b17597ad",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 85549,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-09T06:28:29.468Z",
+        "updated_at": "2023-10-08T16:44:25.944Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75886acb-b8e3-4e2c-86f8-870e01afdd81",
+        "model": "SUV",
+        "brand": "Ford",
+        "year": 32085,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-08T19:49:41.140Z",
+        "updated_at": "2023-10-09T12:19:03.661Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4cbcc13-2594-4777-ba6d-6cab36f140d2",
+        "model": "Sports Car",
+        "brand": "BMW",
+        "year": 53220,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-10-08T18:43:13.562Z",
+        "updated_at": "2023-10-09T01:34:49.802Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee6fa023-1c1d-46e6-b7f1-d622f9ea1936",
+        "model": "Hatchback",
+        "brand": "Honda",
+        "year": 75011,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-10-09T10:52:48.564Z",
+        "updated_at": "2023-10-09T11:03:58.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80bc071b-bf64-4b79-95c8-9bd6e44914f7",
+        "model": "Convertible",
+        "brand": "Mercedes-Benz",
+        "year": 77853,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-10-09T06:27:56.173Z",
+        "updated_at": "2023-10-08T22:43:16.517Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "1464951f-6f9a-4385-8303-4e01498f149b",
+        "start_date": "2023-10-09T13:16:23.031Z",
+        "end_date": "2023-10-09T07:15:46.690Z",
+        "total_price": 88307,
+        "created_at": "2023-10-08T14:35:58.128Z",
+        "updated_at": "2023-10-08T14:13:23.662Z",
+        "car_id": "80bc071b-bf64-4b79-95c8-9bd6e44914f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43ac2357-4f5b-48f8-88b4-eed0c84d5cf3",
+        "start_date": "2023-10-08T14:56:15.956Z",
+        "end_date": "2023-10-09T01:31:42.467Z",
+        "total_price": 63437,
+        "created_at": "2023-10-08T21:07:56.030Z",
+        "updated_at": "2023-10-08T20:30:40.507Z",
+        "car_id": "38a43f79-661a-4193-a22d-0a36b17597ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bf0a7e7-3148-4c34-8473-d99b29e5457c",
+        "start_date": "2023-10-08T22:47:00.615Z",
+        "end_date": "2023-10-09T05:57:37.880Z",
+        "total_price": 7693,
+        "created_at": "2023-10-08T23:35:51.013Z",
+        "updated_at": "2023-10-09T08:10:46.117Z",
+        "car_id": "b4cbcc13-2594-4777-ba6d-6cab36f140d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff4ffe86-fa8b-43b0-84e4-c5ef0b6a3713",
+        "start_date": "2023-10-09T03:17:36.881Z",
+        "end_date": "2023-10-09T06:20:22.374Z",
+        "total_price": 31381,
+        "created_at": "2023-10-08T21:53:31.742Z",
+        "updated_at": "2023-10-09T03:28:50.427Z",
+        "car_id": "38a43f79-661a-4193-a22d-0a36b17597ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d596158-6ca2-48e9-b3e0-55de5a29e3ae",
+        "start_date": "2023-10-09T06:12:50.459Z",
+        "end_date": "2023-10-09T04:08:16.541Z",
+        "total_price": 18539,
+        "created_at": "2023-10-08T21:23:03.931Z",
+        "updated_at": "2023-10-09T01:55:44.293Z",
+        "car_id": "80bc071b-bf64-4b79-95c8-9bd6e44914f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bba0094c-1973-4b60-aadb-14ea0c8211ff",
+        "email": "Leanna15@roq.tech",
+        "firstName": "Joelle",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69939673",
+        "tenantId": null
+      },
+      {
+        "reference": "0e73ffdf-c513-471a-9245-1ab5acc9f131",
+        "email": "Darrion_Leffler-Fay@roq.tech",
+        "firstName": "Haylee",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99113441",
+        "tenantId": null
+      },
+      {
+        "reference": "38f36286-d16e-4ba2-b907-d311e9fe2885",
+        "email": "Allan.Sauer@roq.tech",
+        "firstName": "Sharon",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9167572c-8f09-4d03-ab24-e35c5af544e4",
+        "email": "Electa76@roq.tech",
+        "firstName": "Joyce",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/553.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b992a622-a506-4d92-ba52-f16a9336b113",
+        "email": "Gilda_Stanton30@roq.tech",
+        "firstName": "Jesse",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20563201",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "9f26ff48-1f31-4f7b-bc10-9cf205574734",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "12345",
+        "street": "Main Street",
+        "created_at": "2023-10-09T02:52:10.324Z",
+        "updated_at": "2023-10-09T05:07:46.949Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d12af646-b953-45f0-959c-ecf57040ccdd",
+        "city": "London",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "67890",
+        "street": "Park Avenue",
+        "created_at": "2023-10-09T06:20:09.262Z",
+        "updated_at": "2023-10-09T06:29:43.981Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1d510404-20d4-492a-9f99-dc1f980b320f",
+        "city": "Tokyo",
+        "state": "Florida",
+        "country": "Japan",
+        "zip_code": "54321",
+        "street": "Oxford Street",
+        "created_at": "2023-10-09T03:47:49.008Z",
+        "updated_at": "2023-10-09T10:00:31.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56b7d750-c4d4-42e4-8299-78ad62a92a97",
+        "city": "Paris",
+        "state": "New South Wales",
+        "country": "France",
+        "zip_code": "09876",
+        "street": "Champs-Élysées",
+        "created_at": "2023-10-09T06:47:17.106Z",
+        "updated_at": "2023-10-08T14:21:26.524Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30a575f4-bec4-48c0-9f1e-a4d67efbf6c5",
+        "city": "Sydney",
+        "state": "Tokyo",
+        "country": "Australia",
+        "zip_code": "13579",
+        "street": "George Street",
+        "created_at": "2023-10-09T08:47:25.557Z",
+        "updated_at": "2023-10-08T22:41:04.336Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "9da568e4-97aa-4218-af43-b3bddb001cc3",
+        "created_at": "2023-10-09T10:36:13.731Z",
+        "updated_at": "2023-10-09T08:59:51.859Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c7b38c4-5312-4959-ab51-ebc4ccc0b108",
+        "created_at": "2023-10-09T09:12:30.544Z",
+        "updated_at": "2023-10-08T14:35:52.391Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6fffdc7-826c-4531-acba-5ed66fb08a22",
+        "created_at": "2023-10-09T02:58:29.952Z",
+        "updated_at": "2023-10-08T13:45:16.806Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eadad87-19a3-490d-b43b-69971c29feaa",
+        "created_at": "2023-10-08T19:40:21.965Z",
+        "updated_at": "2023-10-08T16:03:37.984Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2fdf90f-9054-43c0-9154-4fd0472e160b",
+        "created_at": "2023-10-09T08:36:54.075Z",
+        "updated_at": "2023-10-09T10:38:29.990Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "0f6ca9c6-ba4d-4bc5-8e2e-7964d2576aef",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 83661,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-09T05:38:53.178Z",
+        "updated_at": "2023-10-09T06:35:35.027Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c486548b-cea2-4974-9cb7-83891c21ee21",
+        "model": "SUV",
+        "brand": "Ford",
+        "year": 6785,
+        "color": "Blue",
+        "registration_number": "DEF456",
+        "created_at": "2023-10-09T13:21:43.702Z",
+        "updated_at": "2023-10-08T15:45:37.438Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "194fc465-990d-4cf9-9c00-dfbfd29b464f",
+        "model": "Hatchback",
+        "brand": "BMW",
+        "year": 19508,
+        "color": "Black",
+        "registration_number": "GHI789",
+        "created_at": "2023-10-08T17:21:01.062Z",
+        "updated_at": "2023-10-09T12:32:55.496Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f8dd6ae9-61e9-4277-b53b-7aa1fec94b36",
+        "model": "Sports Car",
+        "brand": "Mercedes-Benz",
+        "year": 49119,
+        "color": "White",
+        "registration_number": "JKL012",
+        "created_at": "2023-10-08T18:38:27.698Z",
+        "updated_at": "2023-10-08T21:08:26.642Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "896cf8d3-1386-4f01-abce-c8c2351ba995",
+        "model": "Convertible",
+        "brand": "Audi",
+        "year": 96326,
+        "color": "Silver",
+        "registration_number": "MNO345",
+        "created_at": "2023-10-09T06:50:34.223Z",
+        "updated_at": "2023-10-09T05:28:29.982Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "a1bcfb40-b010-4879-b131-c46a6f0170e9",
+        "start_date": "2023-10-09T03:12:00.248Z",
+        "end_date": "2023-10-09T07:28:39.950Z",
+        "total_price": 21443,
+        "created_at": "2023-10-09T00:16:35.558Z",
+        "updated_at": "2023-10-09T02:36:19.080Z",
+        "car_id": "c486548b-cea2-4974-9cb7-83891c21ee21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46948507-7a1d-47af-aab7-cd806b4c0c77",
+        "start_date": "2023-10-09T01:46:58.583Z",
+        "end_date": "2023-10-09T07:43:33.760Z",
+        "total_price": 63377,
+        "created_at": "2023-10-09T00:23:16.989Z",
+        "updated_at": "2023-10-09T00:08:50.866Z",
+        "car_id": "0f6ca9c6-ba4d-4bc5-8e2e-7964d2576aef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6abd92ab-7d11-400e-b403-f82d60494b3d",
+        "start_date": "2023-10-09T04:36:04.237Z",
+        "end_date": "2023-10-08T21:29:56.631Z",
+        "total_price": 74040,
+        "created_at": "2023-10-09T05:09:57.793Z",
+        "updated_at": "2023-10-09T07:19:39.193Z",
+        "car_id": "0f6ca9c6-ba4d-4bc5-8e2e-7964d2576aef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28a3f93a-e955-4b43-aa05-27e71b40f77d",
+        "start_date": "2023-10-09T04:53:39.444Z",
+        "end_date": "2023-10-09T13:31:49.245Z",
+        "total_price": 3096,
+        "created_at": "2023-10-08T22:39:30.655Z",
+        "updated_at": "2023-10-09T13:15:21.369Z",
+        "car_id": "896cf8d3-1386-4f01-abce-c8c2351ba995",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6966ed32-f9ad-4c10-ad59-6aecac5cd75e",
+        "start_date": "2023-10-09T00:18:11.203Z",
+        "end_date": "2023-10-08T20:26:21.325Z",
+        "total_price": 69939,
+        "created_at": "2023-10-09T00:27:04.847Z",
+        "updated_at": "2023-10-08T22:38:38.745Z",
+        "car_id": "c486548b-cea2-4974-9cb7-83891c21ee21",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0b619458-81c2-422d-8214-89360a5e6df5",
+        "email": "Nigel14@roq.tech",
+        "firstName": "Dayne",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1197.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75f1f448-b251-4891-951c-d1e38f8acea5",
+        "email": "Lysanne46@roq.tech",
+        "firstName": "Dorcas",
+        "lastName": "Jones-Bernhard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "edc76efa-590d-4cc0-ad95-73bd9fcab423",
+        "email": "Emmalee.Hills57@roq.tech",
+        "firstName": "Macie",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9596193",
+        "tenantId": null
+      },
+      {
+        "reference": "7a884399-a09f-454a-8dbf-80b2aae5128a",
+        "email": "Shea_Green@roq.tech",
+        "firstName": "Daryl",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1009.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "85435511-bff5-4020-b136-63555daee2ed",
+        "email": "Delmer35@roq.tech",
+        "firstName": "Libby",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1046.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "location": [
+      {
+        "id": "88c68bd0-e18b-4345-831a-a52b01f0e266",
+        "city": "New York",
+        "state": "California",
+        "country": "United States",
+        "zip_code": "10001",
+        "street": "Main Street",
+        "created_at": "2023-10-08T15:15:18.336Z",
+        "updated_at": "2023-10-09T10:59:59.470Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "11d011aa-8e6a-4a4e-a627-fc0093178d61",
+        "city": "Los Angeles",
+        "state": "Texas",
+        "country": "United Kingdom",
+        "zip_code": "90001",
+        "street": "Park Avenue",
+        "created_at": "2023-10-08T16:46:31.395Z",
+        "updated_at": "2023-10-09T08:41:57.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95f4b6fd-fea2-4190-81ac-c1b3e8e054ec",
+        "city": "London",
+        "state": "Florida",
+        "country": "Australia",
+        "zip_code": "SW1A 1AA",
+        "street": "Oxford Street",
+        "created_at": "2023-10-09T09:37:49.630Z",
+        "updated_at": "2023-10-09T10:04:05.885Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9aad1428-6480-4e4e-b5b7-ae2ceb5fb8d8",
+        "city": "Paris",
+        "state": "New South Wales",
+        "country": "France",
+        "zip_code": "75001",
+        "street": "Champs-Élysées",
+        "created_at": "2023-10-09T05:19:17.141Z",
+        "updated_at": "2023-10-08T22:38:24.883Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80125e16-03d5-4d73-af24-b30d1ead7862",
+        "city": "Tokyo",
+        "state": "Bavaria",
+        "country": "Germany",
+        "zip_code": "10178",
+        "street": "Ginza",
+        "created_at": "2023-10-09T09:52:23.442Z",
+        "updated_at": "2023-10-08T22:05:20.350Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "fleet_manager": [
+      {
+        "id": "45edf9f5-bbd9-469a-9c40-05724e630037",
+        "created_at": "2023-10-08T19:03:29.576Z",
+        "updated_at": "2023-10-09T04:18:59.039Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff37246-58e1-4b13-9136-4d2747ce4764",
+        "created_at": "2023-10-09T10:38:38.533Z",
+        "updated_at": "2023-10-09T02:33:52.033Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee7a8d3f-7575-4a27-b020-b99e71899c4d",
+        "created_at": "2023-10-09T05:29:28.946Z",
+        "updated_at": "2023-10-09T09:22:37.649Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14fb7b31-45ad-4f7c-9122-fd7301d1b382",
+        "created_at": "2023-10-09T04:40:55.917Z",
+        "updated_at": "2023-10-08T18:22:54.869Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "452759dd-005f-4604-8880-96371bc02682",
+        "created_at": "2023-10-09T07:08:49.188Z",
+        "updated_at": "2023-10-08T19:10:02.355Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "ca4d7c1f-d0a0-47df-b4ce-cfd0a51b294b",
+        "model": "Sedan",
+        "brand": "Toyota",
+        "year": 10323,
+        "color": "Red",
+        "registration_number": "ABC123",
+        "created_at": "2023-10-08T23:50:02.572Z",
+        "updated_at": "2023-10-08T21:18:12.207Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1badbbfb-bbaa-4213-8dbc-dd574a97583b",
+        "model": "SUV",
+        "brand": "Ford",
+        "year": 13938,
+        "color": "Blue",
+        "registration_number": "XYZ789",
+        "created_at": "2023-10-09T08:12:06.070Z",
+        "updated_at": "2023-10-08T14:29:44.519Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f5533c7-8f93-44bb-80ee-075a04895884",
+        "model": "Hatchback",
+        "brand": "BMW",
+        "year": 52874,
+        "color": "Black",
+        "registration_number": "1234AB",
+        "created_at": "2023-10-09T12:41:41.787Z",
+        "updated_at": "2023-10-08T15:51:57.975Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc4cbcb5-60e8-4a47-98ef-6ed5084aaaff",
+        "model": "Convertible",
+        "brand": "Mercedes-Benz",
+        "year": 9074,
+        "color": "White",
+        "registration_number": "5678CD",
+        "created_at": "2023-10-09T01:49:09.593Z",
+        "updated_at": "2023-10-08T21:30:37.567Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e246780a-f19d-4606-9305-f672677bd800",
+        "model": "Sports Car",
+        "brand": "Tesla",
+        "year": 50281,
+        "color": "Silver",
+        "registration_number": "EFG901",
+        "created_at": "2023-10-08T18:32:54.094Z",
+        "updated_at": "2023-10-09T13:12:46.686Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "e14c673c-0893-433a-ac73-80c1198c228e",
+        "start_date": "2023-10-08T21:19:45.381Z",
+        "end_date": "2023-10-08T19:52:42.631Z",
+        "total_price": 78760,
+        "created_at": "2023-10-08T22:16:43.718Z",
+        "updated_at": "2023-10-09T04:12:15.936Z",
+        "car_id": "9f5533c7-8f93-44bb-80ee-075a04895884",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51939602-991a-4de7-8112-b6fac898315c",
+        "start_date": "2023-10-08T19:40:03.359Z",
+        "end_date": "2023-10-09T02:00:26.071Z",
+        "total_price": 91216,
+        "created_at": "2023-10-09T02:33:58.592Z",
+        "updated_at": "2023-10-09T08:31:30.229Z",
+        "car_id": "cc4cbcb5-60e8-4a47-98ef-6ed5084aaaff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7f19f58-e794-4eef-8d13-54bf99dca461",
+        "start_date": "2023-10-09T08:45:45.946Z",
+        "end_date": "2023-10-08T23:09:01.700Z",
+        "total_price": 44689,
+        "created_at": "2023-10-09T13:12:00.583Z",
+        "updated_at": "2023-10-09T00:16:10.530Z",
+        "car_id": "e246780a-f19d-4606-9305-f672677bd800",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a422486-5317-4982-99f9-863b735ab8c6",
+        "start_date": "2023-10-09T00:41:38.457Z",
+        "end_date": "2023-10-09T07:29:52.636Z",
+        "total_price": 10228,
+        "created_at": "2023-10-09T11:12:17.422Z",
+        "updated_at": "2023-10-09T08:03:50.345Z",
+        "car_id": "ca4d7c1f-d0a0-47df-b4ce-cfd0a51b294b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e081c4c1-1bdb-4b5f-82ad-f8dfaea11d89",
+        "start_date": "2023-10-09T02:21:09.624Z",
+        "end_date": "2023-10-09T09:43:42.472Z",
+        "total_price": 5761,
+        "created_at": "2023-10-08T14:32:48.754Z",
+        "updated_at": "2023-10-08T20:38:48.491Z",
+        "car_id": "cc4cbcb5-60e8-4a47-98ef-6ed5084aaaff",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62859540-2a2b-441b-ba91-3374155943bd",
+        "email": "Helga_Veum@roq.tech",
+        "firstName": "Kiley",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47660005",
+        "tenantId": null
+      },
+      {
+        "reference": "cfff775c-8090-435a-84e1-00c3ae081ce0",
+        "email": "Jess63@roq.tech",
+        "firstName": "Mercedes",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22165495",
+        "tenantId": null
+      },
+      {
+        "reference": "eeff1db4-71bd-424a-a05e-b114b5544c0a",
+        "email": "Alize82@roq.tech",
+        "firstName": "Sandy",
+        "lastName": "Connelly-Turcotte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76600668",
+        "tenantId": null
+      },
+      {
+        "reference": "8c0a960e-e00a-45f4-b8a8-332c7fbd91d2",
+        "email": "Mabel14@roq.tech",
+        "firstName": "Maida",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/535.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbd02c80-8715-49fa-9a0d-c203c4d427aa",
+        "email": "Junius_Bogan15@roq.tech",
+        "firstName": "Justyn",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45732582",
+        "tenantId": null
+      }
+    ]
+  }
+]
